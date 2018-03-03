@@ -16,6 +16,7 @@
   <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
@@ -41,13 +42,15 @@
               <div class="form-group row">
                 <label for="inputPassword" class="col-sm-3 col-form-label text-right">เขียนที่</label>
                 <div class="col-sm-9 pl-0">
-                  <input type="text" class="form-control" id="inputPassword">
+                  <input type="text" class="effect-1" id="inputPassword">
+                  <span class="focus-border"></span>
                 </div>
               </div>
               <div class="form-group row">
                 <label for="inputPassword" class="col-sm-3 col-form-label text-right">วันที่</label>
                 <div class="col-sm-9 pl-0">
-                  <input type="date" class="form-control text-center" id="inputPassword">
+                  <input type="date" class="effect-1 text-center" id="inputPassword">
+                  <span class="focus-border"></span>
                 </div>
               </div>
             </div>
@@ -76,48 +79,85 @@
                   </div>
                 </div>
                 <div class="col-sm-7 pl-0">
-                  <input type="text" class="form-control" id="inputPassword">
+                  <input type="text" class="effect-1" id="inputPassword">
+                  <span class="focus-border"></span>
                 </div>
               </div>
             </div>
             <div class="col-sm-3">
               <div class="row">
                 <div class="col-sm-5 mt-2">สมาชิกเลขที่</div>
-                <div class="col-sm-7"><input type="text" class="form-control" name=""></div>
+                <div class="col-sm-7">
+                  <input type="text" class="effect-1" name="">
+                  <span class="focus-border"></span>
+                </div>
               </div>
             </div>
             <div class="col-12 form-group">
               <div class="row">
                 <div class="col-sm-1 mt-2">สังกัด</div>
-                <div class="col-sm-3"><input type="text" class="form-control" name=""></div>
+                <div class="col-sm-3">
+                  <input type="text" class="effect-1" name="">
+                  <span class="focus-border"></span>
+                </div>
                 <div class="col-sm-2 mt-2">เลขที่บัตรประชาชน</div>
-                <div class="col-sm-3"><input type="text" class="form-control" name=""></div>
+                <div class="col-sm-3">
+                  <input type="text" class="effect-1" name="">
+                  <span class="focus-border"></span>
+                </div>
                 <div class="col-sm-2 mt-2 pr-0">ที่อยู่บ้านเลขที่</div>
-                <div class="col-sm-1 pl-0 ml-0"><input type="text" class="form-control text-center" name=""></div>
+                <div class="col-sm-1 pl-0 ml-0">
+                  <input type="text" class="effect-1 text-center" name="">
+                  <span class="focus-border"></span>
+                </div>
               </div>
             </div>
             <div class="col-12 form-group">
               <div class="row">
                 <div class="col-sm-1 mt-2">หมู่ที่</div>
-                <div class="col-sm-2"><input type="text" class="form-control" name=""></div>
+                <div class="col-sm-2">
+                  <input type="text" class="effect-1" name="">
+                  <span class="focus-border"></span>
+                </div>
                 <div class="col-sm-1 mt-2">ซอย</div>
-                <div class="col-sm-2"><input type="text" class="form-control" name=""></div>
+                <div class="col-sm-2">
+                  <input type="text" class="effect-1" name="">
+                  <span class="focus-border"></span>
+                </div>
                 <div class="col-sm-1 mt-2 pr-0">ถนน</div>
-                <div class="col-sm-2 pl-0 ml-0"><input type="text" class="form-control text-center" name=""></div>
+                <div class="col-sm-2 pl-0 ml-0">
+                  <input type="text" class="effect-1 text-center" name="">
+                  <span class="focus-border"></span>
+                </div>
                 <div class="col-sm-1 mt-2 pr-0">แขวง/ตำบล</div>
-                <div class="col-sm-2 pl-0 ml-0"><input type="text" class="form-control text-center" name=""></div>
+                <div class="col-sm-2 pl-0 ml-0">
+                  <input type="text" class="effect-1 text-center" name="">
+                  <span class="focus-border"></span>
+                </div>
               </div>
             </div>
             <div class="col-12 form-group">
               <div class="row">
-                <div class="col-sm-1 mt-2">เขต/อำเถอ</div>
-                <div class="col-sm-2"><input type="text" class="form-control" name=""></div>
+                <div class="col-sm-1 mt-2 pr-0">เขต/อำเถอ</div>
+                <div class="col-sm-2">
+                  <input type="text" class="effect-1" name="">
+                  <span class="focus-border"></span>
+                </div>
                 <div class="col-sm-1 mt-2">จังหวัด</div>
-                <div class="col-sm-2"><input type="text" class="form-control" name=""></div>
-                <div class="col-sm-1 mt-2 pr-0">รหัสไปรษณีย์</div>
-                <div class="col-sm-1 pl-0 ml-0"><input type="text" class="form-control text-center" name=""></div>
+                <div class="col-sm-2">
+                  <input type="text" class="effect-1" name="">
+                  <span class="focus-border"></span>
+                </div>
+                <div class="col-sm-1 mt-2 pr-0 pl-0">รหัสไปรษณีย์</div>
+                <div class="col-sm-1 pl-0 ml-0 pr-0">
+                  <input type="text" class="effect-1 text-center" name="">
+                  <span class="focus-border"></span>
+                </div>
                 <div class="col-sm-2 mt-2 pr-0">เบอร์โทรศัพท์บ้าน/มือถือ</div>
-                <div class="col-sm-2 pl-0 ml-0"><input type="text" class="form-control text-center" name=""></div>
+                <div class="col-sm-2 pl-0 ml-0">
+                  <input type="text" class="effect-1 text-center" name="">
+                  <span class="focus-border"></span>
+                </div>
                 <div class="col-12 mt-3 "><b>มีความประสงค์ขอรับสวัสดิการ</b></div>
               </div>
             </div>
@@ -132,7 +172,10 @@
                   </div>
                 </div>
                 <div class="col-sm-4 mt-3">วันเดือนปี จดทะเบียนสมรส</div>
-                <div class="col-sm-7 mt-2"><input type="text" class="form-control" name=""></div>
+                <div class="col-sm-7 mt-2">
+                  <input type="text" class="effect-1" name="">
+                  <span class="focus-border"></span>
+                </div>
                 <div class="col-sm-12 mt-2"><b><u>เอกสารประกอบ</u></b></div>
                 <div class="col-sm-6 mt-2">
                   <div class="form-check">
@@ -173,7 +216,8 @@
                   ปัจจุบันอายุ
                 </div>
                 <div class="col-sm-2 mt-2">
-                  <input type="text" class="form-control" name="">
+                  <input type="text" class="effect-1" name="">
+                  <span class="focus-border"></span>
                 </div>
                 <div class="col-sm-1 mt-3">ปี</div>
                 <div class="col-sm-12 mt-2"><b><u>เอกสารประกอบ</u></b></div>
@@ -194,18 +238,21 @@
                 <div class="col-sm-4 mt-3">เข้ารักษาตัวเป็นผู้ป่วยใน</div>
                 <div class="col-sm-1 mt-3 pr-0 pl-0"> จำนวน</div>
                 <div class="col-sm-4 mt-2">
-                  <input type="text" class="form-control" name="">
+                  <input type="text" class="effect-1" name="">
+                  <span class="focus-border"></span>
                 </div>
                 <div class="col-sm-3 pr-0 pl-0 mt-3">คืน</div>
-                <div class="col-sm-1 mt-3 pr-0">
+                <div class="col-sm-1 mt-3 pr-0 pl-0 text-right">
                   ตั้งแต่
                 </div>
                 <div class="col-sm-4 mt-2">
-                  <input type="date" class="form-control text-center" name="">
+                  <input type="date" class="effect-1 text-center" name="">
+                  <span class="focus-border"></span>
                 </div>
                 <div class="col-sm-1 mt-3 pr-0 pl-0">ถึงวันที่</div>
                 <div class="col-sm-4 mt-2">
-                  <input type="date" class="form-control text-center" name="">
+                  <input type="date" class="effect-1 text-center" name="">
+                  <span class="focus-border"></span>
                 </div>
                 <div class="col-sm-12 mt-2"><b><u>เอกสารประกอบ</u></b></div>
                 <div class="col-sm-12 mt-2">
@@ -257,7 +304,10 @@
                   </div>
                 </div>
                 <div class="col-sm-4 mt-3">วันเดือนปี เกิดของบุตร</div>
-                <div class="col-sm-7 mt-2"><input type="text" class="form-control" name=""></div>
+                <div class="col-sm-7 mt-2">
+                  <input type="text" class="effect-1" name="">
+                  <span class="focus-border"></span>
+                </div>
                 <div class="col-sm-12 mt-2"><b><u>เอกสารประกอบ</u></b></div>
                 <div class="col-sm-6 mt-2">
                   <div class="form-check">
@@ -280,11 +330,20 @@
                   </div>
                 </div>
                 <div class="col-sm-3 mt-4">เป็นสมาชิกเมื่อ</div>
-                <div class="col-sm-8 mt-3"><input type="date" class="form-control text-center" name=""></div>
+                <div class="col-sm-8 mt-3">
+                  <input type="date" class="effect-1 text-center" name="">
+                  <span class="focus-border"></span>
+                </div>
                 <div class="col-sm-3 mt-3 pr-0">รวมอายุการเป็นสมาชิก</div>
-                <div class="col-sm-2 mt-2"><input type="text" class="form-control" name=""></div>
+                <div class="col-sm-2 mt-3">
+                  <input type="text" class="effect-1" name="">
+                  <span class="focus-border"></span>
+                </div>
                 <div class="col-sm-1 mt-3">ปี</div>
-                <div class="col-sm-2 mt-2"><input type="text" class="form-control" name=""></div>
+                <div class="col-sm-2 mt-4">
+                  <input type="text" class="effect-1" name="">
+                  <span class="focus-border"></span>
+                </div>
                 <div class="col-sm-1 mt-3 pr-0 pl-0">เดือน</div>
                 <div class="col-sm-2 mt-3 pr-0 pl-0">(นับถึง 30 ก.ย.)</div>
                 <div class="col-sm-12 mt-2"><b><u>เอกสารประกอบ</u></b></div>
@@ -322,7 +381,10 @@
                   </div>
                 </div>
                 <div class="col-sm-3 mt-3 pr-0">รวมอายุการเป็นสมาชิก</div>
-                <div class="col-sm-8 mt-2"><input type="text" class="form-control" name=""></div>
+                <div class="col-sm-8 ">
+                  <input type="text" class="effect-1" name="">
+                  <span class="focus-border"></span>
+                </div>
                 <div class="col-sm-12 mt-2"><b><u>เอกสารประกอบ</u></b></div>
                 <div class="col-sm-6 mt-2">
                   <div class="form-check">
