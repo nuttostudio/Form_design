@@ -340,7 +340,7 @@
                   <span class="focus-border"></span>
                 </div>
                 <div class="col-sm-1 mt-3">ปี</div>
-                <div class="col-sm-2 mt-4">
+                <div class="col-sm-2 mt-3">
                   <input type="text" class="effect-1" name="">
                   <span class="focus-border"></span>
                 </div>
